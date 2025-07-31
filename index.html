@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to Acme Web Solutions – Providing modern, accessible and SEO-optimized web solutions for your business." />
+  <meta name="keywords" content="web development, HTML5, accessible website, SEO, Acme Web Solutions" />
+  <meta name="author" content="Acme Web Solutions" />
+  <title>Acme Web Solutions | Accessible & SEO-Friendly Web Development</title>
+</head>
+<body>
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 id="home">Acme Web Solutions</h1>
+    <p>Your partner in modern, accessible, and search-engine optimized websites.</p>
+  </header>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>At Acme Web Solutions, we specialize in crafting responsive and accessible websites that not only look great but also rank well on search engines.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Responsive Web Design</h3>
+        <p>We design websites that adapt seamlessly across devices of all sizes.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>Our team ensures your site is structured and content-rich to perform well in search engines.</p>
+      </article>
+      <article>
+        <h3>Accessibility Audits</h3>
+        <p>We audit and improve websites to meet WCAG accessibility standards for all users.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <form aria-label="Contact form" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Acme Web Solutions. All rights reserved.</p>
+    <a href="#home">Back to top</a>
+  </footer>
+</body>
+</html>
